@@ -8,9 +8,9 @@ This repository contains automated test cases built using **Java** and **Seleniu
 
 ![Java](https://img.shields.io/badge/Java-17%2B-%23ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Selenium](https://img.shields.io/badge/Selenium-WebDriver-%2343B02A?style=for-the-badge&logo=selenium&logoColor=white)
+![TestNG](https://img.shields.io/badge/TestNG-Test%20Framework-%23FF6C37?style=for-the-badge&logo=testng&logoColor=white)
 ![JUnit](https://img.shields.io/badge/JUnit-Testing-%23A6192E?style=for-the-badge&logo=java&logoColor=white)
 ![Maven](https://img.shields.io/badge/Maven-Build%20Tool-%23C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-CI%2FCD-%232671E5?style=for-the-badge&logo=githubactions&logoColor=white)
 
 ---
 
@@ -33,3 +33,18 @@ This repository contains automated test cases built using **Java** and **Seleniu
 git clone https://github.com/YOUR_USERNAME/Selenium-Automation-Suite.git
 cd Selenium-Automation-Suite
 ```
+2. **Install dependencies**
+
+```bash
+mvn clean install
+```
+3. **Run tests**
+   
+```bash
+mvn test -DsuiteXmlFile=testng.xml
+```
+
+## 👨‍💻 Developer
+
+**Srivarini Mandali**  
+🔗 [GitHub](https://github.com/srivarinimandali)

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Selenium Assignment Suite">
+    <test name="Assignment Automation Tests">
+        <classes>
+            <class name="com.sqcm.group4.Selenium.TranscriptDownloadTest" />
+            <class name="com.sqcm.group4.Selenium.CanvasCalendarTest" />
+            <class name="com.sqcm.group4.Selenium.SpotInSnellTest" />
+            <class name="com.sqcm.group4.Selenium.DownloadDatasetTest" />
+            <class name="com.sqcm.group4.Selenium.AcademicCalendarTest"/>
+
+        </classes>
+    </test>
+</suite>

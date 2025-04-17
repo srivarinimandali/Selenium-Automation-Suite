@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-25T19:37:15 GMT-04:00" name="Selenium Assignment Suite" finished-at="2025-03-25T19:40:45 GMT-04:00" duration-ms="209572">
+    <groups>
+    </groups>
+    <test started-at="2025-03-25T19:37:15 GMT-04:00" name="Assignment Automation Tests" finished-at="2025-03-25T19:40:45 GMT-04:00" duration-ms="209572">
+      <class name="com.sqcm.group4.Selenium.AcademicCalendarTest">
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:com.sqcm.group4.Selenium.AcademicCalendarTest@1750fbeb]" started-at="2025-03-25T19:39:08 GMT-04:00" name="setup" finished-at="2025-03-25T19:39:09 GMT-04:00" duration-ms="1234" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AcademicCalendarTest.academicCalendarScenarioTest()[pri:0, instance:com.sqcm.group4.Selenium.AcademicCalendarTest@1750fbeb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="academicCalendarScenarioTest()[pri:0, instance:com.sqcm.group4.Selenium.AcademicCalendarTest@1750fbeb]" started-at="2025-03-25T19:39:09 GMT-04:00" name="academicCalendarScenarioTest" finished-at="2025-03-25T19:40:45 GMT-04:00" duration-ms="95746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- academicCalendarScenarioTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.sqcm.group4.Selenium.AcademicCalendarTest@1750fbeb]" started-at="2025-03-25T19:40:45 GMT-04:00" name="tearDown" finished-at="2025-03-25T19:40:45 GMT-04:00" duration-ms="183" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=academicCalendarScenarioTest status=SUCCESS method=AcademicCalendarTest.academicCalendarScenarioTest()[pri:0, instance:com.sqcm.group4.Selenium.AcademicCalendarTest@1750fbeb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sqcm.group4.Selenium.AcademicCalendarTest -->
+      <class name="com.sqcm.group4.Selenium.CanvasCalendarTest">
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:com.sqcm.group4.Selenium.CanvasCalendarTest@1caa0244]" started-at="2025-03-25T19:38:13 GMT-04:00" name="setup" finished-at="2025-03-25T19:38:14 GMT-04:00" duration-ms="1111" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=CanvasCalendarTest.verifyCanvasCalendarScenario()[pri:0, instance:com.sqcm.group4.Selenium.CanvasCalendarTest@1caa0244] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyCanvasCalendarScenario()[pri:0, instance:com.sqcm.group4.Selenium.CanvasCalendarTest@1caa0244]" started-at="2025-03-25T19:38:14 GMT-04:00" name="verifyCanvasCalendarScenario" finished-at="2025-03-25T19:38:41 GMT-04:00" duration-ms="26868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCanvasCalendarScenario -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.sqcm.group4.Selenium.CanvasCalendarTest@1caa0244]" started-at="2025-03-25T19:38:41 GMT-04:00" name="tearDown" finished-at="2025-03-25T19:38:41 GMT-04:00" duration-ms="154" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCanvasCalendarScenario status=SUCCESS method=CanvasCalendarTest.verifyCanvasCalendarScenario()[pri:0, instance:com.sqcm.group4.Selenium.CanvasCalendarTest@1caa0244] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sqcm.group4.Selenium.CanvasCalendarTest -->
+      <class name="com.sqcm.group4.Selenium.SpotInSnellTest">
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:com.sqcm.group4.Selenium.SpotInSnellTest@7ce026d3]" started-at="2025-03-25T19:38:41 GMT-04:00" name="setup" finished-at="2025-03-25T19:38:42 GMT-04:00" duration-ms="988" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=SpotInSnellTest.runScenario()[pri:0, instance:com.sqcm.group4.Selenium.SpotInSnellTest@7ce026d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="runScenario()[pri:0, instance:com.sqcm.group4.Selenium.SpotInSnellTest@7ce026d3]" started-at="2025-03-25T19:38:42 GMT-04:00" name="runScenario" finished-at="2025-03-25T19:38:48 GMT-04:00" duration-ms="5472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.sqcm.group4.Selenium.SpotInSnellTest@7ce026d3]" started-at="2025-03-25T19:38:48 GMT-04:00" name="tearDown" finished-at="2025-03-25T19:38:48 GMT-04:00" duration-ms="152" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runScenario status=SUCCESS method=SpotInSnellTest.runScenario()[pri:0, instance:com.sqcm.group4.Selenium.SpotInSnellTest@7ce026d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sqcm.group4.Selenium.SpotInSnellTest -->
+      <class name="com.sqcm.group4.Selenium.TranscriptDownloadTest">
+        <test-method is-config="true" signature="setupSuite()[pri:0, instance:com.sqcm.group4.Selenium.TranscriptDownloadTest@6fa51cd4]" started-at="2025-03-25T19:37:15 GMT-04:00" name="setupSuite" finished-at="2025-03-25T19:37:15 GMT-04:00" duration-ms="735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:com.sqcm.group4.Selenium.TranscriptDownloadTest@6fa51cd4]" started-at="2025-03-25T19:37:15 GMT-04:00" name="setup" finished-at="2025-03-25T19:37:17 GMT-04:00" duration-ms="2078" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TranscriptDownloadTest.downloadTranscriptTest()[pri:0, instance:com.sqcm.group4.Selenium.TranscriptDownloadTest@6fa51cd4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="downloadTranscriptTest()[pri:0, instance:com.sqcm.group4.Selenium.TranscriptDownloadTest@6fa51cd4]" started-at="2025-03-25T19:37:18 GMT-04:00" name="downloadTranscriptTest" finished-at="2025-03-25T19:38:13 GMT-04:00" duration-ms="55256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downloadTranscriptTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.sqcm.group4.Selenium.TranscriptDownloadTest@6fa51cd4]" started-at="2025-03-25T19:38:13 GMT-04:00" name="tearDown" finished-at="2025-03-25T19:38:13 GMT-04:00" duration-ms="183" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=downloadTranscriptTest status=SUCCESS method=TranscriptDownloadTest.downloadTranscriptTest()[pri:0, instance:com.sqcm.group4.Selenium.TranscriptDownloadTest@6fa51cd4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:com.sqcm.group4.Selenium.TranscriptDownloadTest@6fa51cd4]" started-at="2025-03-25T19:40:45 GMT-04:00" name="tearDownSuite" finished-at="2025-03-25T19:40:45 GMT-04:00" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+      </class> <!-- com.sqcm.group4.Selenium.TranscriptDownloadTest -->
+      <class name="com.sqcm.group4.Selenium.DownloadDatasetTest">
+        <test-method is-config="true" signature="setup(org.testng.ITestResult)[pri:0, instance:com.sqcm.group4.Selenium.DownloadDatasetTest@7ce69770]" started-at="2025-03-25T19:38:48 GMT-04:00" name="setup" finished-at="2025-03-25T19:38:49 GMT-04:00" duration-ms="1247" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=DownloadDatasetTest.downloadDatasetTest()[pri:0, instance:com.sqcm.group4.Selenium.DownloadDatasetTest@7ce69770] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="downloadDatasetTest()[pri:0, instance:com.sqcm.group4.Selenium.DownloadDatasetTest@7ce69770]" started-at="2025-03-25T19:38:49 GMT-04:00" name="downloadDatasetTest" finished-at="2025-03-25T19:39:08 GMT-04:00" duration-ms="18564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downloadDatasetTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.sqcm.group4.Selenium.DownloadDatasetTest@7ce69770]" started-at="2025-03-25T19:39:08 GMT-04:00" name="tearDown" finished-at="2025-03-25T19:39:08 GMT-04:00" duration-ms="142" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=downloadDatasetTest status=SUCCESS method=DownloadDatasetTest.downloadDatasetTest()[pri:0, instance:com.sqcm.group4.Selenium.DownloadDatasetTest@7ce69770] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sqcm.group4.Selenium.DownloadDatasetTest -->
+    </test> <!-- Assignment Automation Tests -->
+  </suite> <!-- Selenium Assignment Suite -->
+</testng-results>

@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Selenium_Assignment_Suite" class="navigator-link">
+              <span class="suite-name border-passed">Selenium Assignment Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Selenium_Assignment_Suite" class="navigator-link ">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Selenium_Assignment_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Selenium_Assignment_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Selenium_Assignment_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Selenium_Assignment_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Selenium_Assignment_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Selenium_Assignment_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Selenium_Assignment_Suite" class="hide-methods passed suite-Selenium_Assignment_Suite"> (hide)</a> <!-- hide-methods passed suite-Selenium_Assignment_Suite -->
+                      <a href="#" panel-name="suite-Selenium_Assignment_Suite" class="show-methods passed suite-Selenium_Assignment_Suite"> (show)</a> <!-- show-methods passed suite-Selenium_Assignment_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Selenium_Assignment_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Selenium_Assignment_Suite" title="com.sqcm.group4.Selenium.AcademicCalendarTest" class="method navigator-link" hash-for-method="academicCalendarScenarioTest">academicCalendarScenarioTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Selenium_Assignment_Suite" title="com.sqcm.group4.Selenium.DownloadDatasetTest" class="method navigator-link" hash-for-method="downloadDatasetTest">downloadDatasetTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Selenium_Assignment_Suite" title="com.sqcm.group4.Selenium.TranscriptDownloadTest" class="method navigator-link" hash-for-method="downloadTranscriptTest">downloadTranscriptTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Selenium_Assignment_Suite" title="com.sqcm.group4.Selenium.SpotInSnellTest" class="method navigator-link" hash-for-method="runScenario">runScenario</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Selenium_Assignment_Suite" title="com.sqcm.group4.Selenium.CanvasCalendarTest" class="method navigator-link" hash-for-method="verifyCanvasCalendarScenario">verifyCanvasCalendarScenario</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Selenium_Assignment_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Selenium_Assignment_Suite" class="panel Selenium_Assignment_Suite">
+          <div class="suite-Selenium_Assignment_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sqcm.group4.Selenium.TranscriptDownloadTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="downloadTranscriptTest">
+                  </a> <!-- downloadTranscriptTest -->
+                  <span class="method-name">downloadTranscriptTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Selenium_Assignment_Suite-class-passed -->
+          <div class="suite-Selenium_Assignment_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sqcm.group4.Selenium.CanvasCalendarTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCanvasCalendarScenario">
+                  </a> <!-- verifyCanvasCalendarScenario -->
+                  <span class="method-name">verifyCanvasCalendarScenario</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Selenium_Assignment_Suite-class-passed -->
+          <div class="suite-Selenium_Assignment_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sqcm.group4.Selenium.AcademicCalendarTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="academicCalendarScenarioTest">
+                  </a> <!-- academicCalendarScenarioTest -->
+                  <span class="method-name">academicCalendarScenarioTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Selenium_Assignment_Suite-class-passed -->
+          <div class="suite-Selenium_Assignment_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sqcm.group4.Selenium.SpotInSnellTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario">
+                  </a> <!-- runScenario -->
+                  <span class="method-name">runScenario</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Selenium_Assignment_Suite-class-passed -->
+          <div class="suite-Selenium_Assignment_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sqcm.group4.Selenium.DownloadDatasetTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="downloadDatasetTest">
+                  </a> <!-- downloadDatasetTest -->
+                  <span class="method-name">downloadDatasetTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Selenium_Assignment_Suite-class-passed -->
+        </div> <!-- panel Selenium_Assignment_Suite -->
+        <div panel-name="test-xml-Selenium_Assignment_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/srivarinimandali/Desktop/Courses/SEM3/Software Quality/EclipseProjects/Selenium/src/test/resources/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Selenium Assignment Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Assignment Automation Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.sqcm.group4.Selenium.TranscriptDownloadTest&quot;/&gt;
+      &lt;class name=&quot;com.sqcm.group4.Selenium.CanvasCalendarTest&quot;/&gt;
+      &lt;class name=&quot;com.sqcm.group4.Selenium.SpotInSnellTest&quot;/&gt;
+      &lt;class name=&quot;com.sqcm.group4.Selenium.DownloadDatasetTest&quot;/&gt;
+      &lt;class name=&quot;com.sqcm.group4.Selenium.AcademicCalendarTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Assignment Automation Tests --&gt;
+&lt;/suite&gt; &lt;!-- Selenium Assignment Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Selenium_Assignment_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Selenium Assignment Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Assignment Automation Tests (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Selenium_Assignment_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Selenium Assignment Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Selenium_Assignment_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Selenium Assignment Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Selenium_Assignment_Suite');
+function tableData_Selenium_Assignment_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'academicCalendarScenarioTest')
+data.setCell(0, 2, 'com.sqcm.group4.Selenium.AcademicCalendarTest')
+data.setCell(0, 3, 95746);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'downloadTranscriptTest')
+data.setCell(1, 2, 'com.sqcm.group4.Selenium.TranscriptDownloadTest')
+data.setCell(1, 3, 55256);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyCanvasCalendarScenario')
+data.setCell(2, 2, 'com.sqcm.group4.Selenium.CanvasCalendarTest')
+data.setCell(2, 3, 26868);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'downloadDatasetTest')
+data.setCell(3, 2, 'com.sqcm.group4.Selenium.DownloadDatasetTest')
+data.setCell(3, 3, 18564);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runScenario')
+data.setCell(4, 2, 'com.sqcm.group4.Selenium.SpotInSnellTest')
+data.setCell(4, 3, 5472);
+window.suiteTableData['Selenium_Assignment_Suite']= { tableData: data, tableDiv: 'times-div-Selenium_Assignment_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Selenium_Assignment_Suite">
+              </div> <!-- times-div-Selenium_Assignment_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Selenium_Assignment_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Selenium Assignment Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Selenium_Assignment_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">8 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.sqcm.group4.Selenium.CanvasCalendarTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setupSuite</span>
+                <br/>
+                <span class="ignored-method-name">tearDownSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.sqcm.group4.Selenium.AcademicCalendarTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setupSuite</span>
+                <br/>
+                <span class="ignored-method-name">tearDownSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.sqcm.group4.Selenium.SpotInSnellTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDownSuite</span>
+                <br/>
+                <span class="ignored-method-name">setupSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.sqcm.group4.Selenium.DownloadDatasetTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setupSuite</span>
+                <br/>
+                <span class="ignored-method-name">tearDownSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Selenium_Assignment_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sqcm.group4.Selenium.TranscriptDownloadTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setupSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup([TestResult name={null} status=CREATED method=TranscriptDownloadTest.downloadTranscriptTest()[pri:0,...)</span>
+                <span class="method-start">752 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">downloadTranscriptTest</span>
+                <span class="method-start">2961 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=downloadTranscriptTest status=SUCCESS method=TranscriptDownloadTest.downloadTranscr...)</span>
+                <span class="method-start">58237 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sqcm.group4.Selenium.CanvasCalendarTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup([TestResult name={null} status=CREATED method=CanvasCalendarTest.verifyCanvasCalendarScenario()[pri:...)</span>
+                <span class="method-start">58424 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCanvasCalendarScenario</span>
+                <span class="method-start">59536 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyCanvasCalendarScenario status=SUCCESS method=CanvasCalendarTest.verifyCanvasC...)</span>
+                <span class="method-start">86408 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sqcm.group4.Selenium.SpotInSnellTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup([TestResult name={null} status=CREATED method=SpotInSnellTest.runScenario()[pri:0, instance:com.sqcm...)</span>
+                <span class="method-start">86564 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">runScenario</span>
+                <span class="method-start">87554 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=runScenario status=SUCCESS method=SpotInSnellTest.runScenario()[pri:0, instance:com...)</span>
+                <span class="method-start">93028 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sqcm.group4.Selenium.DownloadDatasetTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup([TestResult name={null} status=CREATED method=DownloadDatasetTest.downloadDatasetTest()[pri:0, insta...)</span>
+                <span class="method-start">93182 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">downloadDatasetTest</span>
+                <span class="method-start">94430 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=downloadDatasetTest status=SUCCESS method=DownloadDatasetTest.downloadDatasetTest()...)</span>
+                <span class="method-start">112996 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sqcm.group4.Selenium.AcademicCalendarTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup([TestResult name={null} status=CREATED method=AcademicCalendarTest.academicCalendarScenarioTest()[pr...)</span>
+                <span class="method-start">113141 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">academicCalendarScenarioTest</span>
+                <span class="method-start">114376 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=academicCalendarScenarioTest status=SUCCESS method=AcademicCalendarTest.academicCal...)</span>
+                <span class="method-start">210124 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sqcm.group4.Selenium.TranscriptDownloadTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDownSuite</span>
+                <span class="method-start">210330 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
